@@ -1,11 +1,63 @@
 **11 Agustus 2023**
 Belajar Dasar Git dan Github. (Progres 18%)
   - Belajar Pengertian Dasar Git dan Github
+  Git adalah salah satu jenis VCS (Version Control System). 
+  Platform Git dibangun oleh Linus Torvalds bersama tim tahun 2005. 
+  Tujuan agar dapat melakukan kolaborasi antar tim serta bagaimana proyek dapat dikontrol dengan baik. 
+  Untuk bisa berkolaborasi, bisa dengan membangun proyek menjadi open source atau pilihan lainnya menyetel kolaborasi dengan orang lain.
+
+  GitHub adalah platform hosting repository Git berbasis cloud yang mempermudah kolaborasi tim dalam pengembangan perangkat lunak. 
+  Fitur utama GitHub termasuk membuat repository baru dengan opsi public atau private, mengimpor proyek dari platform lain, dan berbagi potongan kode melalui Gist. 
+  GitHub juga mendukung kerja dalam organisasi, memungkinkan manajemen akses yang canggih dan berkolaborasi dalam skala lebih besar.
+  Fitur lainnya adalah GitHub Project, yang membantu mengatur pekerjaan dengan papan proyek untuk mengatur fitur dan alur kerja.
+  GitHub merupakan alat yang kuat untuk pengembangan perangkat lunak kolaboratif yang memiliki keuntungan ketersediaan, pengaturan hak akses, dan organisasi proyek yang lebih baik.
+  
   - Belajar Perintah Dasar Git
+  Git Repository : Media penyimpanan file proyek di dalam Git server.
+  Git Branch     : Percabangan untuk versi baru dari proyek repository.
+  Git Fork       : Penyalinan dari repository orang/organisasi lain, lalu menyimpannya di dalam repository Git sendiri.
+  Git Clone      : Mengambil sebuah repository dan menyimpannya pada direktori lokal.
+  Git Commit     : Cuplikan perubahan (snapshot) dari repository Anda pada waktu tertentu.
+  Git Push       : Mengirim hasil dari perubahan file yang dilakukan ke dalam repository server.
+  Git Pull	     : Menarik atau mengambil source code dari repository server ke lokal..
+
   - Belajar Membuat Akun Github
 
 **12 Agustus 2023**
 Belajar Dasar Git dan Github. (Progres 50%)
   - Belajar Membuat Repository Baru
-  - Belajar menambahkan file readme dan menggunakan syntax markdown
+  Penggunaan Git memerlukan adanya repository
+  1. Local Repository  : tempat penyimpanan di komputer lokal kita. 
+     Kita bisa melakukan perubahan, seperti menambah, mengubah, atau menghapus berkas. 
+     Setelah perubahan ini, kita bisa mengirimkan perubahan ini ke remote repository.
+  2. Remote Repository : tempat penyimpanan di server, yang bisa berbasis cloud seperti GitHub. 
+     Remote repository memungkinkan akses bersama oleh banyak orang. 
+     Ada dua jenis remote repository yang umum, yaitu GitHub, GitLab, dan lainnya.
+  Pada GitHub, kita bisa membuat repository dengan visibilitas private atau public.
+  1. Private Repository  : Ini adalah repository yang hanya bisa diakses oleh orang-orang yang diberi akses.
+  2. Public Repository   : Ini adalah repository yang terbuka untuk umum.
+  Saat membuat repository di GitHub, kita bisa melakukan inisialisasi seperti:
+  1. Add a README file  : Ini adalah file penting yang menjelaskan proyek. 
+     GitHub secara otomatis membuat README ketika membuat repository.
+  2. Add .gitignore     : Ini adalah berkas yang memberitahu Git untuk mengabaikan file tertentu, 
+     seperti file konfigurasi lokal atau file yang tidak perlu disertakan dalam versi kontrol.
+  3. Choose a license   : Ini memungkinkan Anda memilih lisensi untuk proyek Anda, 
+     yang memberi tahu orang lain apa yang mereka bisa atau tidak bisa lakukan dengan kode Anda.
+
+  - Belajar tentang perintah dasar Git
+  1. Git Commit: digunakan untuk menyimpan perubahan pada file di dalam direktori kerja. 
+  2. Git Checkout: memungkinkan Anda berpindah dari satu commit ke commit lainnya atau antara cabang kerja (branch). 
+  3. Git Reset: memungkinkan Anda untuk mengatur ulang keadaan proyek ke commit tertentu. 
+     Namun, perlu diingat bahwa Git Reset dapat menghapus riwayat commit setelahnya. 
+     Ini adalah perintah yang kuat dan perlu digunakan dengan hati-hati.
+  4. Git Revert: mengembalikan keadaan suatu berkas sebelum terjadi suatu perubahan sesuai dengan tujuan commit yang dituju. 
+     Git Revert tidak akan menghilangkan riwayat commit sesudahnya. 
+
+  - Belajar menambahkan file readme dan menggunakan format markdown
+  file readme yang berekstensi Markdown(md) untuk memberikan informasi tentang tujuan atau isi dalam repository.
+  Heading                      # atau ==
+  Subheading                   --
+  Italic (Cetak miring)        *
+  List                         -
+
   - Belajar melakukan commit, melihat history, dan melakukan release
